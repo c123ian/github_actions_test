@@ -1,2 +1,2 @@
 # github_actions_test
-testing githib actions
+testing github actions from W&B GitOps course.
