@@ -23,6 +23,6 @@ jobs:
       - name: print something from payload 
         run: echo "${PUSHER} pushed this there email is ${EMAIL}"
         env:
-          PUSHER: ${{ githib.event.pusher.name }}
-          EMAIL: ${{ githib.event.pusher.email }}
+          PUSHER: ${{ github.event.pusher.name }}
+          EMAIL: ${{ github.event.pusher.email }}
          
